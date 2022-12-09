@@ -6,7 +6,7 @@
 #    By: akalimol <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/09 14:22:22 by akalimol          #+#    #+#              #
-#    Updated: 2022/12/09 15:50:03 by akalimol         ###   ########.fr        #
+#    Updated: 2022/12/09 16:01:18 by akalimol         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,6 +43,11 @@ class FileLoader:
 
     @staticmethod
     def display(df, n):
+        """
+        display(self, df, n): takes a pandas.DataFrame and an integer as arguments,
+displays the first n rows of the dataset if n is positive, or the last n rows if n is
+negative.
+        """
         if isinstance(df, pd.DataFrame) is False:
             print(f'given dataframe is not a dataframe!')
             return
