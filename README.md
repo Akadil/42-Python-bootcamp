@@ -1,2 +1,2 @@
 # 42-Python-bootcamp
-I participated in a Python Bootcamp provided from 42AI in Ecole42 
+Python and ML bootcamp by Ecole42 in Paris. That's not a full code. I am going to fill this repository time by time
