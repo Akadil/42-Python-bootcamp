@@ -44,7 +44,7 @@ class NumpyCreator:
         return np.full(shape, value)
 
     def random(self, shape):
-        print("Hello world")
+        return np.random.rand(shape)
 
     def identity(self, n):
         return np.identity(n)
