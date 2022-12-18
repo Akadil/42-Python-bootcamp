@@ -1,2 +1,2 @@
 # 42-Python-bootcamp
-Python and ML bootcamp by Ecole42 in Paris. That's not a full code. I am going to fill this repository time by time
+Python and Machine Learning bootcamp organized by Ecole42 in Paris. The project completed 0% out of 100%
