@@ -6,7 +6,7 @@
 #    By: akalimol <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/06 19:30:08 by akalimol          #+#    #+#              #
-#    Updated: 2022/12/06 20:11:21 by akalimol         ###   ########.fr        #
+#    Updated: 2022/12/19 15:56:50 by akalimol         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,7 +72,18 @@ class Vector:
                 returner_value.append([vec2[i][0] + self.values[i][0]])
         return (Vector(returner_value, vec2.shape))
             
-    def 
+    def dot(self, vec2):
+        
+        # If something is wrong , return false
+        if self.shape != vec2.shape:
+            return -1
+
+        returner = 0;
+        for i in range(vec2.shape[0]):
+            for j in range(vec2.shape[1]):
+                returner += self.value[i][j] + vec2.value[i][j]
+
+        return (returner)
 
 
 
