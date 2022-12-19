@@ -15,6 +15,6 @@ Python and Machine Learning bootcamp organized by Ecole42 in Paris. The project 
 - Ex 03 - **Class static functions**. Recreate functions to manipulate the lists 
 - Ex 04 - **Create my own vector**. Understand the concepts of vectors by recreating the functions of vectors
 - Ex 05 - **Create a class Bank with all relevant functionality**
- - The goals of this exercise is to discover new built-in functions and deepen your class
+  - The goals of this exercise is to discover new built-in functions and deepen your class
 manipulation and to be aware of possibility to modify instanced objects.
 In this exercise you learn how to modify or add attributes to an object.
