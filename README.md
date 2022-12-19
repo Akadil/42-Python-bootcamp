@@ -4,3 +4,4 @@ Python and Machine Learning bootcamp organized by Ecole42 in Paris. The project 
 ## Module00 - Python Basics 1
 
 - ex 10 - Morse code.  Create a program to convert a string to morse code
+- ex 09 - Guess my number. Create a simple program where you try to guess a random number
